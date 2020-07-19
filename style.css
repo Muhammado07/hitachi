@@ -1648,7 +1648,7 @@ a {
   width: 100%;
 }
 .about-image .img {
-  background: url("img/about-hero.jpg") center center no-repeat;
+  background: url("img/bg8.jpg") center center no-repeat;
   background-size: cover;
   height: 550px;
 }
@@ -1938,8 +1938,12 @@ a {
 .vrf-image .img {
   background: url("img/vrf-bg.jpg") center center no-repeat fixed;
   background-size: cover;
-  height: 670px;
+  height: 690px;
   position: relative;
+}
+.vrf-image.ducted .img {
+  background: url("img/bg7.jpg") top center no-repeat fixed;
+  background-size: cover;
 }
 .vrf-image .img .details {
   position: absolute;
