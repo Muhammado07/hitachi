@@ -1498,6 +1498,9 @@ a {
   align-items: center;
   text-align: left;
 }
+.footer .top .top-right img {
+  width: 340px;
+}
 @media screen and (max-width: 767px) {
   .footer .top,
   .footer .bottom {
@@ -1578,10 +1581,10 @@ a {
   width: 100%;
   background-color: var(--third-color);
   color: var(--second-color);
-  padding-top: 200px;
+  padding-top: 180px;
   padding-bottom: 0;
   padding-bottom: 0;
-  height: 77vh;
+  height: 85vh;
   z-index: 1;
 }
 .about-hero .content {
