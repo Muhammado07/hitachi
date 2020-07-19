@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="22px" viewBox="0 0 19 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 20</title>
+    <desc>Created with Sketch.</desc>
+    <g id="PRODUCT-DETAIL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Product-detail---Horizontal-con-iconos" transform="translate(-1245.000000, -974.000000)" stroke="#C3002F">
+            <g id="Group-24" transform="translate(992.000000, 975.000000)">
+                <g id="Group-20" transform="translate(254.000000, 0.000000)">
+                    <path d="M0,0.00767307692 L11.4422201,0.00767307692 C11.7297322,0.00767307692 12.0055946,0.119958294 12.2097057,0.320065348 L16.4884804,4.51490492 C16.6947299,4.71710851 16.8107384,4.99232924 16.8107384,5.27943572 L16.8107384,20.4615385 L3.26923077,20.4615385 C1.46368447,20.4615385 -2.21115649e-16,19.0150738 0,17.2307692 L0,0.00767307692 Z" id="Stroke-2"></path>
+                    <path d="M5,9.5 L10.9991668,9.5" id="Line-4" transform="translate(7.999583, 9.500000) scale(1, -1) translate(-7.999583, -9.500000) "></path>
+                    <path d="M5,11.5 L10.9991668,11.5" id="Line-4-Copy-3" transform="translate(7.999583, 11.500000) scale(1, -1) translate(-7.999583, -11.500000) "></path>
+                    <path d="M5,12.5 L8.17307692,12.5" id="Line-4-Copy-4" transform="translate(7.000000, 13.000000) scale(1, -1) translate(-7.000000, -13.000000) "></path>
+                    <polyline id="Stroke-4" transform="translate(13.500000, 2.500000) scale(1, -1) translate(-13.500000, -2.500000) " points="16 -7.28306304e-14 11 -7.28306304e-14 11 5"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
