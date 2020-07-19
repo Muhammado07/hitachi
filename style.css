@@ -1601,6 +1601,9 @@ a {
   padding-top: 20px;
 }
 @media screen and (max-width: 767px) {
+  .about-hero {
+    padding-top: 140px;
+  }
   .about-hero .content h1 {
     font-size: 45px;
   }
