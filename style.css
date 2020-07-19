@@ -2203,7 +2203,7 @@ a {
 }
 .jnq-image.ducted-img .img {
   background: url("img/bg6.jpg") top center no-repeat fixed !important;
-  transform: translate3d(0px, -50px, 0px) scale(0.7);
+  transform: translate3d(0px, -20px, 0px) scale(0.7);
 }
 @media screen and (max-width: 991px) {
   .jnq-image.ducted-img {
