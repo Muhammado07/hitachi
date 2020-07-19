@@ -444,6 +444,10 @@ a {
 .show {
   top: 0;
 }
+.show-search,
+.show-search-1 {
+  z-index: 9999999999999;
+}
 .full-search h2 {
   font-weight: 500;
   margin-bottom: 24px;

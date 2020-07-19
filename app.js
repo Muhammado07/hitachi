@@ -9,7 +9,8 @@ const closeSearch = document.querySelector('.close-search')
 showSearch.addEventListener('click', function () {
     fullSearch.classList.add('show')
 })
-showSearchs.addEventListener('click', function () {
+showSearchs.addEventListener('click', function (e) {
+    e.preventDefault()
     fullSearch.classList.add('show')
 })
 closeSearch.addEventListener('click', function () {
@@ -41,7 +42,6 @@ subNavs.forEach(function (nav) {
         e.target.classList.toggle('shows')
     })
 })
-
 
 
 
