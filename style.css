@@ -97,6 +97,11 @@ a {
     visibility: hidden;
     opacity: 0;
   }
+  .show-mob .social {
+    height: auto;
+    visibility: visible;
+    opacity: 1;
+  }
 }
 .fix {
   position: fixed;
