@@ -1,17 +1,4 @@
-// scroll
-// const social = document.querySelector('.social')
 
-// window.addEventListener('scroll', function () {
-//     const windowScroll = window.pageYOffset
-//     const socialHeight = social.getBoundingClientRect()
-//     console.log(socialHeight)
-
-//     if (windowScroll > socialHeight) {
-//         social.classList.add('social')
-//     } else {
-//         social.classList.remove('social')
-//     }
-// })
 
 // Show Search
 const showSearch = document.querySelector('.show-search')
