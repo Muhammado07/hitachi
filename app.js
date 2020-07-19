@@ -58,21 +58,7 @@ subNavs.forEach(function (nav) {
 
 
 
-// Watch Video
-const playVideo = document.querySelector('.play')
-const closeVideo = document.querySelector('.close-video')
-const watch = document.querySelector('.watch')
-const videoPlay = document.querySelector('.video-play')
 
-playVideo.addEventListener('click', function () {
-    watch.classList.add('view')
-    videoPlay.setAttribute('src', 'https://www.youtube.com/embed/avLIlV8KRAE')
-
-})
-closeVideo.addEventListener('click', function () {
-    watch.classList.remove('view')
-    videoPlay.setAttribute('src', '')
-})
 
 // Show toggle
 const toggleNav = document.querySelector('.toggle-nav')
