@@ -2211,6 +2211,11 @@ a {
   background: url("img/bg6.jpg") top center no-repeat fixed !important;
   transform: translate3d(0px, -20px, 0px) scale(0.7);
 }
+@media screen and (max-width: 1200px) {
+  .jnq-image.ducted-img .img {
+    background: url("img/bg6-tab-ult.jpg") center center no-repeat !important;
+  }
+}
 @media screen and (max-width: 991px) {
   .jnq-image.ducted-img {
     height: 60vh;
