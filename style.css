@@ -1832,7 +1832,7 @@ a {
 .lead.about .wrapper-all {
   padding: 0 0 0 75px !important;
 }
-.lead.about .lead-left {
+.lead.about .wrapper-left .txt .wrapper-all .lead-content .lead-left {
   background: url("img/arab1-1.JPG") center center no-repeat !important;
   background-size: cover;
   object-fit: cover;
@@ -1902,6 +1902,9 @@ a {
   .lead.about .wrapper-all {
     padding: 0 !important;
   }
+  .lead.about .wrapper-left .txt .wrapper-all .lead-content .lead-left {
+    height: 50%;
+  }
   .lead.about .wrapper-left .txt .wrapper-all .lead-content .lead-right {
     height: 42%;
   }
@@ -1919,6 +1922,14 @@ a {
 @media screen and (max-width: 767px) {
   .lead.about {
     height: 670px;
+  }
+  .lead.about .wrapper-left .txt .wrapper-all .lead-content .lead-left {
+    background: url("img/arab1.jpg") center center no-repeat !important;
+    background-size: cover;
+    object-fit: cover;
+    height: 25%;
+    position: relative;
+    zoom: 30%;
   }
 }
 
@@ -2156,7 +2167,7 @@ a {
 .product-vrf .wrapper-left .txt .wrapper-all .lead-content .lead-right {
   width: 40%;
 }
-.product-vrf .wrapper-left .txt .wrapper-all .lead-content .lead-left {
+.lead.product-vrf .wrapper-left .txt .wrapper-all .lead-content .lead-left {
   width: 60%;
   background: url("img/bg1.jpg") center center no-repeat !important;
   background-size: cover;
@@ -2174,12 +2185,13 @@ a {
   .product-vrf .wrapper-left .wrapper-all {
     padding: 0 !important;
   }
-  .product-vrf .wrapper-left .txt .wrapper-all .lead-content .lead-right,
-  .product-vrf .wrapper-left .txt .wrapper-all .lead-content .lead-left {
+  .lead.product-vrf .wrapper-left .txt .wrapper-all .lead-content .lead-right,
+  .lead.product-vrf .wrapper-left .txt .wrapper-all .lead-content .lead-left {
     width: 100%;
   }
-  .product-vrf .wrapper-left .txt .wrapper-all .lead-content .lead-left {
+  .lead.product-vrf .wrapper-left .txt .wrapper-all .lead-content .lead-left {
     order: -1;
+    zoom: 60%;
   }
 }
 
@@ -2585,6 +2597,11 @@ a {
 /* Download */
 .download {
   padding: 0 0 100px;
+}
+@media screen and (max-width: 767px) {
+  .download {
+    padding: 0 0 40px;
+  }
 }
 .download .container {
   padding-left: 0;
