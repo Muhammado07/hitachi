@@ -2493,6 +2493,13 @@ a {
 .features .details .left-feature .image-content .img-wrap {
   position: absolute;
   width: 100%;
+  background: url("img/bg4.jpg") right center no-repeat;
+  background-size: cover;
+  height: 660px;
+}
+.features.feature-ducted .details .left-feature .image-content .img-wrap {
+  position: absolute;
+  width: 100%;
   background: url("img/bg1.jpg") right center no-repeat;
   background-size: cover;
   height: 660px;
