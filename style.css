@@ -2829,3 +2829,368 @@ a {
     font-size: 22px;
   }
 }
+
+/*  ========================================
+    ========== Contact us Page ==============
+    ======================================== */
+
+.jnq-image.contact-us {
+  width: 100%;
+  height: 85vh;
+  position: relative;
+  overflow: hidden;
+}
+.jnq-image.contact-us .bg {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.jnq-image.contact-us .image-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.jnq-image.contact-us .img {
+  background: url("img/arab1.jpg") 100% 100% no-repeat fixed !important;
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.series.con-us {
+  margin-top: -100px;
+  height: 1200px;
+}
+.series.con-us .container {
+  overflow: inherit;
+}
+.series.con-us .ser .left-series h2 {
+  padding-top: 50px;
+}
+.series.con-us .ser .left-series h2::before {
+  top: 15%;
+}
+.series.con-us .details {
+  margin-top: 50px;
+}
+.series.con-us .details a {
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--third-color);
+  letter-spacing: -0.00291667em;
+  line-height: 1.16666667em;
+  -webkit-transition: color 0.2s ease-in-out 0ms;
+  transition: color 0.2s ease-in-out 0ms;
+}
+.series.con-us .details a:hover {
+  color: #ff6f91;
+}
+.series.con-us .form-details {
+  z-index: 3;
+  position: absolute;
+  top: 30%;
+  text-align: left;
+  width: 40%;
+}
+@media screen and (max-width: 1300px) {
+  .series.con-us .form-details {
+    padding: 5px 25px;
+  }
+}
+.series.con-us .form-details .form-content h3 {
+  color: var(--second-color);
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -0.00966667em;
+  position: relative;
+  margin-bottom: 30px;
+}
+.series.con-us .form-details .form-content h3::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 0;
+  background-color: var(--first-color);
+  width: 20px;
+  height: 4px;
+  display: block;
+}
+@media screen and (max-width: 991px) {
+  .series.con-us .form-content h3 {
+    font-size: 26px;
+  }
+  .series.con-us .form-details {
+    padding: 5px 15px;
+  }
+}
+.series.con-us .form-details .formbox {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.series.con-us .formbox form {
+  position: relative;
+  width: 100%;
+}
+.series.con-us .form-details .formbox form .input-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+.series.con-us .form-details .formbox form .input-box:last-child {
+  margin-bottom: 0;
+}
+.series.con-us .form-details .formbox form .input-box input,
+.series.con-us .form-details .formbox form .input-box textarea {
+  position: relative;
+  background: transparent;
+  outline: none;
+  border: 1px solid #b9b9b9;
+  width: 100%;
+  color: var(--second-color);
+  padding-bottom: 0;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-top: 28px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  transition: all 0.2s;
+}
+.series.con-us .form-details .formbox form .input-box textarea {
+  resize: none;
+  -webkit-appearance: none;
+  letter-spacing: 0;
+  height: 126px;
+  padding: 27px 20px 0;
+}
+.series.con-us .form-details .formbox form .input-box input[type="submit"] {
+  background: transparent;
+  color: var(--third-color);
+  width: 150px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  transition: all 0.2s;
+  border: 1px solid var(--first-color);
+  background-color: var(--first-color);
+}
+.series.con-us
+  .form-details
+  .formbox
+  form
+  .input-box
+  input[type="submit"]:hover {
+  background-color: #a60028;
+  border-color: #a60028;
+}
+.series.con-us .form-details .formbox form .input-box span {
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+  font-size: 16px;
+  display: inline-block;
+  pointer-events: none;
+  color: #b9b9b9;
+  transition: all 0.2s;
+}
+.series.con-us .form-details .formbox form .input-box span.tes {
+  top: 30px;
+}
+.series.con-us .form-details .formbox form .input-box input:focus ~ span,
+.series.con-us .form-details .formbox form .input-box input:valid ~ span,
+.series.con-us .form-details .formbox form .input-box textarea:focus ~ span,
+.series.con-us .form-details .formbox form .input-box textarea:valid ~ span {
+  transform: translateY(-22px);
+  font-size: 12px;
+  color: #b9b9b9;
+}
+.series.con-us .form-details .formbox form .input-box .input-file {
+  text-align: right;
+}
+.series.con-us .form-details .formbox form .input-box .input-file input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.series.con-us
+  .form-details
+  .formbox
+  form
+  .input-box
+  .input-file
+  input[type="file"]
+  + label {
+  color: var(--second-color);
+  max-width: 100%;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 5px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.series.con-us .form-details .formbox form .input-box .input-file label img {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  fill: currentColor;
+  margin-top: -0.25em;
+  margin-right: 0.5em;
+}
+.series.con-us .form-details .formbox form .input-box .input-file label p {
+  font-weight: 400;
+}
+.series.con-us .form-details .formbox form .addtion {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--second-color);
+  letter-spacing: 0;
+  line-height: 1.64285714em;
+  margin-bottom: 20px;
+}
+.series.con-us .form-details .formbox form .policy {
+  padding-top: 30px;
+}
+.series.con-us .form-details .formbox form .pos {
+  padding-top: 0px;
+}
+.series.con-us .form-details .formbox form .policy .checkbox {
+  position: relative;
+}
+.series.con-us
+  .form-details
+  .formbox
+  form
+  .policy
+  .checkbox
+  input[type="checkbox"] {
+  position: absolute;
+  visibility: hidden;
+}
+.series.con-us .form-details .formbox form .policy .checkbox label {
+  display: block;
+  position: relative;
+  font-size: 14px;
+  padding: 0 0 0 35px;
+  line-height: 23px;
+  z-index: 9;
+  -webkit-transition: border 0.25s ease-in-out 0ms;
+  transition: border 0.25s ease-in-out 0ms;
+  color: #7f7f7f;
+}
+.series.con-us .form-details .formbox form .policy .checkbox label a {
+  color: #7f7f7f;
+  text-decoration: underline;
+}
+.series.con-us .form-details .formbox form .policy .checkbox .check {
+  display: block;
+  position: absolute;
+  border: 1px solid #b9b9b9;
+  height: 23px;
+  width: 23px;
+  top: 0;
+  left: 0;
+  -webkit-transition: border 0.25s ease-in-out 0ms;
+  transition: border 0.25s ease-in-out 0ms;
+  border-radius: 0;
+  background: transparent;
+  z-index: 1;
+}
+.series.con-us .form-details .formbox form .policy .checkbox .check::after {
+  content: "";
+  width: 11px;
+  height: 7px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border: 2px solid #c3002f;
+  border-top: none;
+  border-right: none;
+  background: transparent;
+  opacity: 0;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition: opacity 0.2s ease-in-out 0ms;
+  transition: opacity 0.2s ease-in-out 0ms;
+}
+.series.con-us
+  .form-details
+  .formbox
+  form
+  .policy
+  .checkbox
+  input[type="checkbox"]:checked
+  ~ .check:after {
+  opacity: 1;
+}
+@media screen and (max-width: 1199px) {
+  .jnq-image.contact-us {
+    height: 80vh;
+  }
+  .jnq-image.contact-us .img {
+    transform: none;
+    background: url("img/arab1.jpg") 10% 20% no-repeat fixed !important;
+  }
+  .series.con-us {
+    margin-top: 0;
+    height: auto;
+    padding: 0 0 50px;
+  }
+  .series.con-us .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .series .ser .right-series {
+    margin-left: 0;
+    width: 100%;
+  }
+  .series.con-us .form-details {
+    top: 0;
+    position: relative;
+    width: 100%;
+  }
+  .series.con-us .ser .left-series {
+    padding: 20px;
+  }
+  .lead .wrapper-left .txt .wrapper-all {
+    padding: 0 !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .jnq-image.contact-us .img {
+    background: url("img/arab1.jpg") 0% 100% no-repeat fixed !important;
+  }
+  .lead.about .wrapper-left .txt .wrapper-all .lead-content .lead-left {
+    zoom: 52%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .jnq-image.contact-us {
+    height: 70vh;
+  }
+  .jnq-image.contact-us .img {
+    transform: none;
+    background: url(img/arab1.jpg) 20% 0% no-repeat fixed !important;
+    zoom: 56%;
+  }
+}
+@media screen and (max-width: 484px) {
+  .jnq-image.contact-us {
+    height: 60vh;
+  }
+}
+@media screen and (max-width: 320px) {
+  .jnq-image.contact-us .img {
+    zoom: 40%;
+  }
+}
