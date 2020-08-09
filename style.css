@@ -3139,7 +3139,7 @@ a {
   }
   .jnq-image.contact-us .img {
     transform: none;
-    background: url("img/arab1.jpg") 10% 20% no-repeat fixed !important;
+    background: url("img/contact-page.jpg") 70% 20% no-repeat fixed !important;
   }
   .series.con-us {
     margin-top: 0;
@@ -3168,7 +3168,7 @@ a {
 }
 @media screen and (max-width: 991px) {
   .jnq-image.contact-us .img {
-    background: url("img/arab1.jpg") 0% 100% no-repeat fixed !important;
+    background: url("img/contact-page.jpg") 60% 15% no-repeat fixed !important;
   }
   .lead.about .wrapper-left .txt .wrapper-all .lead-content .lead-left {
     zoom: 52%;
@@ -3180,7 +3180,7 @@ a {
   }
   .jnq-image.contact-us .img {
     transform: none;
-    background: url(img/arab1.jpg) 20% 0% no-repeat fixed !important;
+    background: url("img/contact-page.jpg") 70% 0% no-repeat fixed !important;
     zoom: 56%;
   }
 }
