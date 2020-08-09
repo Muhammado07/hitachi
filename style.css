@@ -1641,7 +1641,7 @@ a {
 
 /* About img */
 .about-image {
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 100px;
   overflow: hidden;
 }
@@ -2852,7 +2852,7 @@ a {
   overflow: hidden;
 }
 .jnq-image.contact-us .img {
-  background: url("img/arab1.jpg") 100% 100% no-repeat fixed !important;
+  background: url("img/contact-page.jpg") 80% 50% no-repeat fixed !important;
   background-size: cover;
   object-fit: cover;
   width: 100%;
