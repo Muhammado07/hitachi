@@ -3181,7 +3181,7 @@ a {
   .jnq-image.contact-us .img {
     transform: none;
     background: url("img/contact-page.jpg") 70% 0% no-repeat fixed !important;
-    zoom: 56%;
+    zoom: 40%;
   }
 }
 @media screen and (max-width: 484px) {
