@@ -3288,6 +3288,22 @@ a {
   letter-spacing: -0.00291667em;
   line-height: 1.16666667em;
 }
+.resources .resource .reso li a .date {
+  position: absolute;
+  top: 20px;
+  right: calc(100% - 20px);
+  white-space: nowrap;
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-transform-origin: right top;
+  transform-origin: right top;
+  font-weight: 600;
+  font-size: 14px;
+  color: #b9b9b9;
+  letter-spacing: 0.05384615em;
+  line-height: 1.46153846em;
+  text-transform: uppercase;
+}
 @media screen and (max-width: 1200px) {
   .resources .resource .reso li {
     width: calc(33.33333333% - 40px);
