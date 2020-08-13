@@ -3195,7 +3195,9 @@ a {
   }
 }
 
-/* Download */
+/*  ========================================
+    ========== Resources Page ==============
+    ======================================== */
 
 .resources {
   background: #f7f7f7;
@@ -3269,7 +3271,7 @@ a {
   opacity: 0;
 }
 .resources .resource .reso li a .details {
-  padding: 20% 10% 0%;
+  padding: 20% 10% 5%;
   text-align: center;
 }
 .resources .resource .reso li a .details h4 {
@@ -3317,5 +3319,102 @@ a {
   .resources .resource .reso li {
     width: 100%;
     margin-left: 0;
+  }
+}
+
+/*  ========================================
+    ========== Error Page ===============
+    ======================================== */
+.error {
+  padding: 100px 0;
+}
+.error .wrapper-all {
+  position: relative;
+  padding: 0 75px;
+  width: 100%;
+}
+.error .wrapper-all .container {
+  text-align: center;
+  padding-top: 300px;
+}
+.error .wrapper-all .container .error-hold {
+  position: relative;
+}
+.error .wrapper-all .container .error-hold svg {
+  max-width: 817px;
+  top: -145px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-50%, 0, 0);
+  width: 66.6666666%;
+}
+.error .wrapper-all .container .error-hold h3 {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--second-color);
+  letter-spacing: 0.05384615em;
+  line-height: 1.46153846em;
+  text-transform: uppercase;
+  position: relative;
+}
+.error .wrapper-all .container .error-hold h2 {
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--second-color);
+  letter-spacing: -0.00966667em;
+  line-height: 1.2em;
+  position: relative;
+  margin: 0 auto;
+  width: 33.333333333%;
+}
+.error .wrapper-all .container .error-hold h2 span {
+  display: block;
+  color: var(--first-color);
+}
+.error .wrapper-all .container .error-hold .home {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 240px;
+}
+.error .wrapper-all .container .error-hold .home a {
+  font-family: "Source Sans Pro";
+  cursor: pointer;
+  outline: none;
+  border-radius: 0;
+  display: inline-block;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  border: 1px solid var(--first-color);
+  padding: 14px 34px;
+  min-width: 120px;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s ease-in-out 0ms;
+  color: var(--second-color);
+}
+.error .wrapper-all .container .error-hold .home a:hover {
+  background-color: var(--first-color);
+  color: var(--third-color);
+}
+
+@media screen and (max-width: 991px) {
+  .error .wrapper-all .container .error-hold h2 {
+    width: 100%;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .error .wrapper-all {
+    padding: 0;
+  }
+  .error .wrapper-all .container .error-hold svg {
+    width: 100%;
+    top: -45px;
+    max-width: 400px;
   }
 }
