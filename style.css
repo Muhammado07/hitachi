@@ -3194,3 +3194,112 @@ a {
     zoom: 40%;
   }
 }
+
+/* Download */
+
+.resources {
+  background: #f7f7f7;
+  padding: 160px 0 0;
+}
+.resources .container {
+  padding-left: 0;
+}
+.resources .big-head {
+  color: var(--first-color);
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: -0.00291667em;
+  line-height: 1.16666667em;
+  text-transform: uppercase;
+}
+.resources .resource .reso {
+  display: flex;
+  padding: 30px 0;
+}
+.resources .resource .reso li {
+  width: calc(33.33333333% - 115px);
+  margin: 0 20px 40px;
+  position: relative;
+}
+.resources .resource .reso li:first-child {
+  margin-left: 0;
+}
+.resources .resource .reso li a {
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: relative;
+  text-decoration: none;
+  padding: 50% 0 0;
+  -webkit-transition: all 0.4s ease-in-out 0ms;
+  transition: all 0.4s ease-in-out 0ms;
+}
+.resources .resource .reso li a .img {
+  position: relative;
+  width: calc(100% - 50px);
+  margin: 0 auto;
+}
+.resources .resource .reso li a .img img {
+  display: block;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  -webkit-transition: all 0.4s ease-in-out 0ms;
+  transition: all 0.4s ease-in-out 0ms;
+}
+.resources .resource .reso li a .img img.dow {
+  opacity: 0;
+  top: 20%;
+}
+
+.resources .resource .reso li a:hover {
+  -webkit-box-shadow: 0 30px 36px 0 rgba(0, 0, 0, 0.12);
+  -ms-box-shadow: 0 30px 36px 0 rgba(0, 0, 0, 0.12);
+  -o-box-shadow: 0 30px 36px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 30px 36px 0 rgba(0, 0, 0, 0.12);
+  -webkit-transform: translateY(-15px);
+  transform: translateY(-15px);
+}
+.resources .resource .reso li a:hover .img img.dow {
+  opacity: 1;
+}
+.resources .resource .reso li a:hover .img img.private {
+  opacity: 0;
+}
+.resources .resource .reso li a .details {
+  padding: 20% 10% 0%;
+  text-align: center;
+}
+.resources .resource .reso li a .details h4 {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--first-color);
+  letter-spacing: 0.05384615em;
+  line-height: 1.46153846em;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.resources .resource .reso li a .details h3 {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--second-color);
+  letter-spacing: -0.00291667em;
+  line-height: 1.16666667em;
+}
+@media screen and (max-width: 1200px) {
+  .resources .resource .reso li {
+    width: calc(33.33333333% - 40px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .resources .resource .reso {
+    flex-direction: column;
+  }
+  .resources .resource .reso li {
+    width: 100%;
+    margin-left: 0;
+  }
+}
