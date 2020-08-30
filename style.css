@@ -1502,7 +1502,7 @@ a {
   text-align: left;
 }
 .footer .top .top-right img {
-  width: 340px;
+  width: auto;
 }
 @media screen and (max-width: 767px) {
   .footer .top,
