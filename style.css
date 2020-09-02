@@ -1786,7 +1786,7 @@ a {
   color: var(--second-color);
   letter-spacing: 0;
   line-height: 1.2;
-  width: 25%;
+  width: 33%;
   padding-bottom: 15px;
 }
 .offices .details p {
@@ -1865,7 +1865,7 @@ a {
   font-size: 28px;
   font-weight: 600;
   color: var(--third-color);
-  margin-bottom: 24px;
+  margin-bottom: 60px;
   line-height: 1.2;
   position: relative;
   padding-top: 20px;
@@ -1880,7 +1880,7 @@ a {
   height: 3px;
   display: block;
 }
-.lead.about .lead-right .form-details input {
+.lead.about .lead-right .form-details .cont-us {
   background: transparent;
   color: var(--third-color);
   width: 150px;
@@ -1888,11 +1888,11 @@ a {
   font-size: 16px;
   border: none;
   outline: none;
-  padding: 15px 20px;
+  padding: 20px 40px;
   transition: all 0.2s;
   border: 1px solid var(--third-color);
 }
-.lead.about .lead-right .form-details input:hover {
+.lead.about .lead-right .form-details .cont-us:hover {
   color: var(--first-color);
   background-color: var(--third-color);
   border-color: transparent;
