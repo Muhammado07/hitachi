@@ -310,6 +310,7 @@ a {
 .header .bottom-nav .left-nav a img {
   margin-right: 20px;
   width: 116px;
+  /* width: 160px; */
   display: block;
 }
 .header .bottom-nav .left-nav ul {
@@ -536,6 +537,9 @@ a {
 .full-search-mob {
   display: none;
 }
+.bottom-nav-mob .bottom-content .img a img {
+  display: none;
+}
 /* Mobile Nav */
 @media screen and (max-width: 767px) {
   .bottom-nav {
@@ -569,7 +573,8 @@ a {
     margin-bottom: 4px;
   }
   .bottom-nav-mob .bottom-content .img a img {
-    width: 84px;
+    width: 120px;
+    display: block;
   }
   .full-search-mob {
     background-color: var(--first-color);
@@ -937,7 +942,7 @@ a {
 /* Contact */
 
 .contact {
-  background: url("img/arab1.jpg") bottom center no-repeat;
+  background: url("img/arab1.jpg") center center no-repeat;
   background-size: cover;
   width: 100%;
   height: 585px;
@@ -1097,7 +1102,12 @@ a {
 }
 @media screen and (max-width: 991px) {
   .lead {
-    height: 850px;
+    height: 1030px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .lead {
+    height: 880px;
   }
 }
 .lead .wrapper-left {
@@ -1158,7 +1168,7 @@ a {
 @media screen and (max-width: 991px) {
   .lead .wrapper-left .txt .wrapper-all .lead-content .lead-left {
     width: 100%;
-    height: 40%;
+    height: 85%;
   }
   .contact-desk {
     display: none;
@@ -1179,7 +1189,7 @@ a {
 }
 @media screen and (max-width: 767px) {
   .lead .wrapper-left .txt .wrapper-all .lead-content .lead-left {
-    height: 25%;
+    height: 40%;
   }
 }
 .lead .wrapper-left .txt .wrapper-all .lead-content .lead-right {
@@ -1196,7 +1206,7 @@ a {
 @media screen and (max-width: 991px) {
   .lead .wrapper-left .txt .wrapper-all .lead-content .lead-right {
     width: 100%;
-    height: 52%;
+    height: 70%;
   }
 }
 .lead .wrapper-left .txt .wrapper-all .lead-content .lead-right .world {
@@ -1656,7 +1666,7 @@ a {
 .about-image .img {
   background: url("img/bg8.jpg") center center no-repeat;
   background-size: cover;
-  height: 550px;
+  height: 630px;
 }
 @media screen and (max-width: 991px) {
   .about-image .wrapper-left {
@@ -1666,7 +1676,7 @@ a {
     display: block;
   }
   .about-image .img {
-    height: 270px;
+    height: 430px;
   }
 }
 
@@ -1968,7 +1978,7 @@ a {
   color: var(--third-color);
   top: 220px;
   bottom: 0;
-  right: 200px;
+  right: 100px;
   height: calc(100% - 100px);
   width: 38%;
   padding: 80px 80px 0;
@@ -2004,11 +2014,18 @@ a {
   }
 }
 @media screen and (max-width: 1200px) {
+  .vrf-image .img .details {
+    right: 30px;
+    width: 45%;
+  }
   .vrf-image .img .details h2 {
     font-size: 45px;
   }
 }
 @media screen and (max-width: 991px) {
+  .vrf-image.ducted .img {
+    height: 100vh;
+  }
   .vrf-image .wrapper-left {
     padding: 0;
     width: 100%;
@@ -2023,7 +2040,7 @@ a {
     right: 0;
     padding: 40px 40px 0;
     height: auto;
-    top: 55%;
+    top: 75%;
   }
   .vrf-image .img .details h2 {
     padding-right: 40px;
@@ -2041,11 +2058,11 @@ a {
 }
 @media screen and (max-width: 484px) {
   .vrf-image .img {
-    height: 70vh;
+    height: 85vh;
   }
   .vrf-image .img .details {
-    top: 65%;
-    padding: 10px 40px 0;
+    top: 80%;
+    padding: 10px 40px -1px;
   }
   .vrf-image .img .details h2 {
     padding-right: 0;
@@ -2855,7 +2872,7 @@ a {
   overflow: hidden;
 }
 .jnq-image.contact-us .img {
-  background: url("img/contact-page.jpg") 80% 50% no-repeat fixed !important;
+  background: url("img/contact-page.jpg") 80% 20% no-repeat fixed !important;
   background-size: cover;
   object-fit: cover;
   width: 100%;
