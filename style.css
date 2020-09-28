@@ -874,7 +874,7 @@ a {
 @media screen and (max-width: 767px) {
   .discover .dis-head h2 {
     width: 100%;
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 .discover .dis-product {
@@ -1189,7 +1189,7 @@ a {
 }
 @media screen and (max-width: 767px) {
   .lead .wrapper-left .txt .wrapper-all .lead-content .lead-left {
-    height: 40%;
+    height: 30%;
   }
 }
 .lead .wrapper-left .txt .wrapper-all .lead-content .lead-right {
@@ -2040,7 +2040,7 @@ a {
     right: 0;
     padding: 40px 40px 0;
     height: auto;
-    top: 75%;
+    top: 68%;
   }
   .vrf-image .img .details h2 {
     padding-right: 40px;
@@ -2061,7 +2061,7 @@ a {
     height: 85vh;
   }
   .vrf-image .img .details {
-    top: 80%;
+    top: 65%;
     padding: 10px 40px -1px;
   }
   .vrf-image .img .details h2 {
@@ -3191,7 +3191,8 @@ a {
     background: url("img/contact-page.jpg") 60% 15% no-repeat fixed !important;
   }
   .lead.about .wrapper-left .txt .wrapper-all .lead-content .lead-left {
-    zoom: 52%;
+    /* zoom: 52%; */
+    zoom: 100%;
   }
 }
 @media screen and (max-width: 767px) {
