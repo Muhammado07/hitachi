@@ -573,7 +573,7 @@ a {
     margin-bottom: 4px;
   }
   .bottom-nav-mob .bottom-content .img a img {
-    width: 120px;
+    width: 140px;
     display: block;
   }
   .full-search-mob {
@@ -911,6 +911,11 @@ a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   padding-bottom: 70px;
+}
+@media screen and (max-width: 767px) {
+  .discover .dis-product .products img {
+    padding-left: 20px;
+  }
 }
 .discover .dis-product .products img.fir {
   width: 85%;
