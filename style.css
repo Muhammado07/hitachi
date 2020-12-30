@@ -1502,6 +1502,9 @@ a {
   text-align: center;
   margin-bottom: 60px;
 }
+.footer .top img {
+  width: 150px;
+}
 .footer .top:nth-child(2) {
   margin-bottom: 200px;
 }
@@ -1519,9 +1522,9 @@ a {
   align-items: center;
   text-align: left;
 }
-.footer .top .top-right img {
+/* .footer .top .top-right img {
   width: 130px;
-}
+} */
 @media screen and (max-width: 767px) {
   .footer .top,
   .footer .bottom {
@@ -1531,6 +1534,9 @@ a {
   .footer .top .top-right {
     order: -1;
     margin-bottom: 20px;
+  }
+  .footer .top img {
+    margin-bottom: 25px;
   }
   .footer .top .top-right img {
     max-width: 100%;
