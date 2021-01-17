@@ -1,3 +1,5 @@
+/* Edit By : Mohamed Ali ==== Web Designer */
+
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
 :root {
   --first-color: #c3002f;
@@ -1522,34 +1524,6 @@ a {
   align-items: center;
   text-align: left;
 }
-/* .footer .top .top-right img {
-  width: 130px;
-} */
-@media screen and (max-width: 767px) {
-  .footer .top,
-  .footer .bottom {
-    flex-direction: column;
-    align-items: center;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .footer .top .top-right {
-    order: -1;
-    margin-bottom: 20px;
-  }
-  .footer .top img {
-    margin-bottom: 25px;
-  }
-  .footer .top .top-right img {
-    max-width: 100%;
-    display: block;
-  }
-  .footer .top .top-left {
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-}
 .footer .top .top-left .navs {
   align-self: flex-start;
 }
@@ -1591,6 +1565,29 @@ a {
 }
 
 @media screen and (max-width: 767px) {
+  .footer .top {
+    flex-direction: column;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 30px;
+  }
+  .footer .top .top-right {
+    order: -1;
+    margin-bottom: 20px;
+  }
+  .footer .top img {
+    margin-bottom: 25px;
+  }
+  .footer .top .top-right img {
+    max-width: 100%;
+    display: block;
+  }
+  .footer .top .top-left {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
   .footer .bottom .bottom-left,
   .footer .bottom .bottom-right {
     flex-direction: column;
@@ -1601,6 +1598,12 @@ a {
   }
   .footer .top .top-right {
     align-self: flex-start;
+  }
+  .footer .bottom .bottom-right p {
+    font-size: 11px;
+  }
+  .footer .top:nth-child(2) {
+    margin-bottom: 100px;
   }
 }
 
