@@ -1529,7 +1529,9 @@ a {
   .footer .top,
   .footer .bottom {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
   .footer .top .top-right {
     order: -1;
