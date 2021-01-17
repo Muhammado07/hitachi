@@ -1565,7 +1565,7 @@ a {
 }
 
 @media screen and (max-width: 767px) {
-  .footer .top {
+  .footer .top:nth-child(1) {
     flex-direction: column;
     align-items: center;
     display: grid;
@@ -1587,6 +1587,11 @@ a {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer .top .top-left .navs {
+    width: 100%;
   }
   .footer .bottom .bottom-left,
   .footer .bottom .bottom-right {
